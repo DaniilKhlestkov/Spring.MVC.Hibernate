@@ -11,8 +11,7 @@ import javax.persistence.EntityManagerFactory;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
-@Component
-@Transactional
+@Repository
 public class UserDaolmpl implements UserDao {
 
     @PersistenceContext

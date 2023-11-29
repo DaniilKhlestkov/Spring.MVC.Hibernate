@@ -16,7 +16,6 @@ public class UserController {
         this.userService = userService;
     }
 
-    //DONE!
     @GetMapping("/users")
     public String getAllUsers(Model model) {
         model.addAttribute("users", userService.getAllUsers());
@@ -34,7 +33,6 @@ public class UserController {
         return "redirect:/users";
     }
 
-    //done
     @GetMapping("/removeUser")
     public String removeUser(@RequestParam("id") long id) {
         userService.removeUser(id);
