@@ -13,7 +13,6 @@ import java.util.List;
 
 @Repository
 public class UserDaolmpl implements UserDao {
-
     @PersistenceContext
     private EntityManager entityManager;
 

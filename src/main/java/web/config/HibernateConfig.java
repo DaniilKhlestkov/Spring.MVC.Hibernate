@@ -23,7 +23,6 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class HibernateConfig {
     private Environment env;
-
     @Autowired
     public HibernateConfig(Environment env) {
         this.env = env;

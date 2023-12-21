@@ -10,7 +10,6 @@ import java.util.List;
 
 @Service
 public class UserServicelmpl implements UserService {
-
     public UserDao userDao;
 
     @Autowired
